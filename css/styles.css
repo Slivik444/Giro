@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Secular One", sans-serif;
+}
+
+
+/* HEADER */
+.header {
+  width: 100%;
+}
+
+.poloska-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin: 0 auto;
+  padding: 1% 0;
+  font-size: 16px;
+  height: 60px;
+}
+
+.poloska-text {
+  width: 40%;
+}
+
+.button {
+  width: 58%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-text {
+  background-color: #FFA019;
+  border-radius: 15px;
+  color: white;
+  padding: 1.5% 2%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.header hr {
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+  border: 0;
+}
+
+.poloska-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin: 0 auto;
+  padding: 1.5% 0;
+  height: 65px;
+}
+
+.text-down h1 {
+  font-size: 30px;
+}
+
+.nav .menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #818181;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Меню */
+.menu-container {
+  background: url(images/scoter.png) center / cover no-repeat;
+  padding: 15% 0;
+  text-align: center;
+  position: relative;
+  color: white;
+  
+}
+.img{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0; 
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.menu-container-info {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.menu-title {
+  font-size: 56px;
+}
+
+.menu-info {
+  font-size: 20px;
+  margin: 5% 0 4%;
+  font-weight: lighter;
+}
+
+.menu-button {
+  background: white;
+  padding: 1%;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+}
+
+.menu-button .menu-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* ПРЕИМУЩЕСТВА */
+.Preumyschestva {
+  margin-top: 4%;
+}
+
+.Preumy-Main {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.Preumy-Zagolov {
+ display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin-bottom: 4%;
+    
+}
+.Preumy-Zagolov h2{
+    font-size: 34px;
+    font-weight: lighter;
+     white-space: nowrap
+
+
+}
+
+.Preumy-Buttons
+{
+    display: flex;
+    margin-left: 80%;
+  
+
+   
+    
+}
+
+.Preumy-icon {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+  
+}
+
+.Preumy-Main-Icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23px;
+  text-align: center;
+  max-width: 150px;
+}
+
+
+/*  О НАС */
+.About > * {
+  margin-bottom: 2.5%;
+}
+
+.About p {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+/* РАССЫЛКА */
+.Pole {
+  background: #FFA425;
+  color: white;
+}
+
+.Pole-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin: 0 auto;
+  padding: 1% 0;
+}
+
+.Pole-left {
+  width: 25%;
+  font-size: 18px;
+}
+
+.Pole-right {
+  width: 55%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.Input-name{
+    width: 30%;
+    margin-top: 5px;
+     background: #FFA425;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.Input-email{
+    margin-top: 5px;
+    width: 30%;
+     background: #FFA425;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.Pole-right p {
+  background: #FFA425;
+  border: 1px solid white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.Pole-Podpiska{
+    
+    width: 30%;
+    background: white;
+    padding: 2%;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.Pole-Podpiska a {
+    text-decoration: none;
+
+}
+
+/*  ОСОБЕННОСТИ  */
+.Osoben {
+  width: 65%;
+  margin: 5% auto;
+  font-weight: lighter;
+}
+
+.Osoben-spic {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+  flex-wrap: wrap;
+}
+
+.Osoben div p {
+  font-size: 20px;
+}
+
+/* КАТАЛОГ */
+.Catalog {
+  background-color: #FBFBFB;
+  padding: 4% 0;
+}
+
+.Catalog-List {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Catalog-List-Right a {
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Catalog-List-Right a:first-child {
+  background: orange;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+.Catalog-cards {
+  width: 65%;
+  margin: 2.5% auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Catalog-cards > div {
+  width: 23%;
+  background: white;
+  box-shadow: 0px 0px 10px gray;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.Catalog-cards-item {
+  position: absolute;
+  background: orange;
+  padding: 0.5em 1em;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.Catalog-img img {
+  width: 100%;
+  display: block;
+}
+
+.Catalog-cards-text {
+  padding: 0 10%;
+}
+
+.Catalog-cards-text p:first-child {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.Catalog-cards-text p:last-child {
+  font-weight: bold;
+}
+
+/* КОНСУЛЬТАНТЫ  */
+.Consultant {
+  width: 60%;
+  margin: 2% auto;
+ 
+}
+
+.Consultant-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px; /* расстояние между карточками */
+}
+
+.Consultant-main-block {
+  width: 30%;
+  background: white;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.Consultant-main-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Consultant-main-block-text {
+  padding: 10px;
+}
+
+.Consultant-main-block-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.Consultant-main-block-text p {
+  margin: 5px 0;
+}
+
+.Consultant-main-block-button {
+  background: #FFA019;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+/*  БРЕНДЫ  */
+.Brand {
+  background: #FBFBFB;
+  color: #9B9B9B;
+  font-size: 36px;
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+/* ПОЛЕЗНОЕ */
+.Info {
+  width: 65%;
+  margin: 3% auto;
+}
+
+.Info-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Info-main > div {
+  
+  color: white;
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7.5% 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+
+
+
+.Giro{
+    background: url(images/kak\ va.png) center / cover no-repeat;
+}
+  
+.Scooter{
+    background: url(images/scot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Sigve{
+    background: url(images/sigve.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.kids-giro
+
+{
+    background: url(images/kids.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Подвал */
+footer {
+   display: flex;
+  flex-wrap: wrap;
+  background: #FBFBFB;
+  width: 65%;
+  margin: 3% auto;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #8191A6;
+  align-items: flex-start;
+}
+
+.Footer-text {
+  width: 30%;
+}
+
+.Footer-text p:not(:first-child) {
+  margin-top: 5%;
+}
+
+
+
+.Company-info {
+  list-style: none;
+  padding: 0;
+}
+
+.Company-item {
+  margin-top: 10px;
+}
+
+.MY-giro p {
+  font-weight: bold;
+  color: #000;
+}
+
+.Company-link {
+  text-decoration: none;
+  color: #8191A6;
+}
+
+/*
